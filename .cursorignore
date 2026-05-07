@@ -1,0 +1,68 @@
+﻿# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnpm-store/
+
+# Next.js
+/.next/
+/out/
+
+# Production / build output
+/build
+/dist
+
+# Testing
+/coverage
+.nyc_output
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment variables
+.env
+.env*.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vercel
+.vercel
+
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.idea/
+*.sublime-project
+*.sublime-workspace
+!.vscode/extensions.json
+components/**/*.min.js
+IDE (local settings)
+.cache/
+.eslintcache
+.turbo/
+Desktop.ini
+
+# Security / misc
+*.pem
+*.bak
+*.tmp
+*.orig
+
+# Git metadata (no need to index)
+.git/
+
+
